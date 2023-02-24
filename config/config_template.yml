@@ -51,6 +51,14 @@ ignoreForNormalization: "chrX chrM chrY"
 binSize: 50
 ## smooth length
 smoothLength: 150
+##number of processors
+numberOfProcessors: 8
+## minimum fragment length
+minFragmentLength: 20
+## maximum fragment length
+maxFragmentLength: 1000
+## minimum mapping quality
+minMappingQuality: 10
 #################################################################
 ##                     Environment Modules                     ##
 #################################################################
