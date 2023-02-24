@@ -64,7 +64,7 @@ rule all:
         expand(
             "results/bigwigs_no_spikein/{sample}.bw",
             sample=merged_samples_noInputs
-            )
+            ),
 	expand(
             "results/backgroundNormalizedBigwigs/{{sample}}_{str(backgroundNormalized)}.bw",
             sample=merged_samples_noInputs
